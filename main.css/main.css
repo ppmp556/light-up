@@ -1,0 +1,24 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+}
+
+
+.gloval-nav {
+    margin: 59px 155.5px 150px;
+    width: 974.5px;
+    height: 77px;
+    text-align: centerS;
+    color: #676767;
+    font-family: "Noto Sans CIK JP";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 4.2px;
+    background-color: #ffffff;
+
+}
+.gloval-nav .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
