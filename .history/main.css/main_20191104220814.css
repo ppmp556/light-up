@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*CSS共通*/
+html {
+    font-size: 62.5%;
+}
+body {
+    color: #000000;
+    font-size: 1.2rem;
+}
+*,*::befor, *::after {
+    box-sizing: border-box;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;　/*テキストデフォルト下線外し*/
+}
+/*css共通ここまで*/
+
+/*グローバルナビゲーション*/
+.global-nav {
+    padding: 65px 155.5px 657px 150px;
+    width: 974.5px;
+    height: 77px;
+    text-align: center;
+    color: #676767;
+    font-family: "Noto Sans CJK JP";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 4.2px;
+    background-color: #ffffff;
+
+}
+
+.global-nav .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+.global-nav .nab-item span {
+    font-size: 10px;
+}
+
+/*グローバルナビゲーションここまで*/
+/*メインビジュアル*/
+.top {
+    padding: 0 158px 0 157px;
+    background-color: #f2f3f7;
+}
+
+/*サイトタイトル*/
+.site-title {
+    color: #d4004e;
+    padding: 215.5px 814px 308.5px 157px;
+    font-size: 76px;
+    font-family: 'ITC Avant Garde Gothic';
+    line-height: 1.14;
+    letter-spacing: 22.8px;
+
+
+}
+
+/*サイトタイトルここまで*/
+/*サイトサブタイトル*/
+.site-title-sub {
+    color: #d4004e;
+    padding: 513px 971px 236px 162px;
+    margin-top: 22.5px;
+    font-family: 'Noto Sans CJK JP';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 6.4px;
+
+
+
+}
+.site-title-sub span {
+
+}
+
+
+/*サイトサブタイトルここまで*/
+
+
+/*メインビジュアルここまで*/
