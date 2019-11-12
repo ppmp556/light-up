@@ -1,0 +1,175 @@
+/*CSS共通*/
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #000000;
+    font-size: 1.2rem;
+    margin: 0;
+    
+}
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+}
+.content-wrapper {
+    max-width: 979px;
+    margin: 0 auto;
+}
+
+ /*テキストデフォルト下線外し*/
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+/*css共通ここまで*/
+
+/*header*/
+.header {
+    
+    width: 1295px;
+    height: 799px;
+    background-color: #ffffff;
+    background-size: cover;
+    text-align: center;
+  
+
+}
+
+
+
+/*グローバルナビゲーション*/
+.global-nav {
+    position: absolute;
+    top: 59px;
+    left: 15px;
+    width: 974.5px;
+    height: 77px;
+    text-align: center;
+    color: #676767;
+    font-family: "Noto Sans CJK JP";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 4.2px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+
+}
+
+.global-nav .nav-item {
+    display: inline-block;
+    
+}
+.global-nav .nab-item span {
+    font-size: 10px;
+}
+
+/*グローバルナビゲーションここまで*/
+/*メインビジュアル*/
+.top {
+    padding: 0 158px 0 157px;
+    background-color: #ffffff;
+    
+}
+
+/*サイトタイトル*/
+.site-title a {
+    position: absolute;
+    top: 209.5px;
+    left: 150px;
+    color: #d4004e;
+    text-align: left;
+    font-size: 76px;
+    font-family: 'ITC Avant Garde Gothic';
+    line-height: 1.14;
+    letter-spacing: 22.8px;
+    text-decoration: none;
+
+
+}
+
+/*サイトタイトルここまで*/
+/*サイトサブタイトル*/
+.site-title-sub {
+    color: #d4004e;
+    position: absolute;
+    top:  507px;
+    left: 155px;
+    margin-top: 22.5px;
+    font-family: 'Noto Sans CJK JP';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 6.4px;
+
+
+
+}
+.site-title-sub span {
+    font-family: 10px;
+
+}
+
+
+/*サイトサブタイトルここまで*/
+
+
+/*メインビジュアルここまで*/
+
+/*アバウト*/
+.about {
+    width: 1280px;
+    height: 558px;
+    background-color: pink;
+}
+
+.about-box {
+    position: absolute;
+    top: 932px;
+    left: 175px;
+}
+.about-text {
+    text-align: center;
+    background-color: #f2f3f7;
+    padding: 66px 55px 62.5px 66px;
+    font-size: 17px;
+    font-family: "Noto Sans CJK JP";
+    border: 1px solid #707070;
+}
+
+/*アバウトここまで*/
+
+
+
+
+.product {
+    width: 980px;
+    height: 1430.28px;
+    background-color: blue;
+}
+
+.news {
+    width: 978px;
+    height: 499.28px;
+    background-color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 261px;
+    background-color: #333333;
+}
+
+
