@@ -1,0 +1,272 @@
+/*CSS共通*/
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #000000;
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: "Noto Sans CJK JP";
+}
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+}
+.content-wrapper {
+    max-width: 979px;
+    margin: 0 auto;
+}
+
+ /*テキストデフォルト下線外し*/
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+/*css共通ここまで*/
+
+/*header*/
+.header {
+    position: relative;
+    width: 1280px;
+    height: 793px;
+    background-color: #ffffff;
+    background-size: cover;
+    text-align: center;
+  
+
+}
+
+
+
+/*グローバルナビゲーション*/
+.global-navbox {
+    position: absolute;
+    top: 59px;
+    left: 150px;
+    width: 980px;
+    height: 82.5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+
+}
+
+.nav-itembox{
+    position: absolute;
+    display: flex;
+    width: 607px;
+    height: 35px;
+    left:  321px;
+
+}
+
+
+
+li {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 4.2px;
+    flex-grow: 1;
+    
+}
+
+li + li {
+    border-left: 1px solid #000000;
+}
+.greenbox {
+    position: absolute;
+    left: 260px;
+    top: -176px;
+
+}
+.grayboxs {
+    position: relative;
+}
+
+
+.global-nav .nab-item span {
+    font-size: 10px;
+}
+
+.nav-logo {
+    width: 168px;
+    height: 34px;
+    position: absolute;
+    top: 21px;
+    left: 37px;
+
+
+}
+
+/*グローバルナビゲーションここまで*/
+/*メインビジュアル*/
+.top {
+    padding: 0 158px 0 157px;
+    background-color: #ffffff;
+    position: relative;
+    
+}
+
+/*サイトタイトル*/
+.site-title a {
+    position: absolute;
+    top: 209.5px;
+    left: 150px;
+    color: #d4004e;
+    text-align: left;
+    font-size: 76px ;
+    font-family: 'ITC Avant Garde Gothic';
+    line-height: 1.14;
+    letter-spacing: 22.8px;
+    text-decoration: none;
+    width: 324px;
+    height: 275px;
+
+
+}
+
+/*サイトタイトルここまで*/
+/*サイトサブタイトル*/
+.site-title-sub {
+    color: #d4004e;
+    position: absolute;
+    top:  507px;
+    left: 155px;
+    margin-top: 22.5px;
+    font-family: 'Noto Sans CJK JP';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 6.4px;
+
+
+
+}
+.site-title-sub span {
+    font-family: 10px;
+
+}
+
+.graybox {
+    top: 604.4px;
+    right: 227.1px;
+    position: relative;
+}
+
+
+
+/*サイトサブタイトルここまで*/
+
+
+/*メインビジュアルここまで*/
+
+/*アバウトここから*/
+.about {
+    width: 1280px;
+    height: 558px;
+}
+
+.about-box {
+    position: absolute;
+    top: 932px;
+    left: 175px;
+}
+
+.about-title {
+    position: absolute;
+    font-family: "Noto Sans CJK JP";
+    font-size: 43px;
+    line-height: 1.3;
+    
+
+}
+
+.about-text {
+    text-align: center;
+    background-color: #f2f3f7;
+    padding: 66px 55px 62.5px 66px;
+    font-size: 17px;
+    font-family: "Noto Sans CJK JP";
+    border: 1px solid #707070;
+}
+
+.redbox {
+    position: relative;
+    background-color: #D4004E;
+    color: #ffffff;
+    font-family: "Noto Sans CJK JP";
+    font-size: 13px bold;
+    text-align: center;
+    line-height: 1.3;
+    top: 44.6px;
+    left: 386.8px;
+    position: relative;
+    width: 157.12px;
+    height: 35.8px;
+
+}
+
+/*アバウトここまで*/
+
+
+/*プロダクトここから*/
+
+.product {
+    width: 980px;
+    height: 1430.28px;
+    background-color: blue;
+}
+
+ul .product-wrapper {
+    display: flex;
+
+}
+
+ul li:nth-child(odd) {
+    
+
+    flex-direction: row;
+}
+
+
+
+/*プロダクトここまで*/
+
+.news {
+    width: 978px;
+    height: 499.28px;
+    background-color: red;
+}
+
+
+/*footerここから*/
+.footer {
+    width: 100%;
+    height: 261px;
+    background-color: #333333;
+    bottom: 0;
+}
+
+.footer p{
+    
+    font-family: "Noto Sans CJK JP";
+    font-size: 9px bold;
+    color: #ffffff;
+    line-height: 3.1;
+    letter-spacing: 3.6px;
+}
+
+/*footerここまで*/
